@@ -45,7 +45,7 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="/basics">
+            <Link href="https://coinablepay.com/store/stax-store">
               <a>STORE - SPEND YOUR STAX</a>
             </Link>
           </li>
