@@ -29,8 +29,6 @@ export const HomeView: FC = ({ }) => {
   return (
 
     <div className="md:hero mx-auto p-4">
-    <div className="bg-indigo-600">
-    <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-center justify-between">
       <div className="md:hero-content flex flex-col">
       <img src="Blxckout_Words_Logo.png" height="300" width="450"></img>
@@ -100,6 +98,7 @@ export const HomeView: FC = ({ }) => {
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   );
