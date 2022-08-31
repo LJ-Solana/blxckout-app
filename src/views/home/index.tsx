@@ -35,8 +35,8 @@ export const HomeView: FC = ({ }) => {
 
       <div className="bg-base-100 py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
-            <p className="mt-2 lg:mx-auto text-3xl font-bold text-white sm:text-4xl">We build products to increase adoption of Solana.</p>
+          <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We build products to increase adoption of Solana.</p>
             <p className="mt-4 lg:mx-auto max-w-2xl text-xl text-white">Blockchain Based Storage, Community Discord Bot & NFT Portfolio Tracker.</p>
           </div>
 
@@ -78,7 +78,7 @@ export const HomeView: FC = ({ }) => {
                   </div>
                   <p className="ml-16 text-lg font-medium leading-6 text-white">Trax - NFT Portfolio Tracker</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">Partnered with Pixel Panda Crew developer Noira we bring you a custom P&L tracker that is one of the most accurate on the market with a constantly evolving set of features.</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Partnered with Pixel Panda C developer Noira we bring you a custom P&L tracker that is one of the most accurate on the market with a constantly evolving set of features.</dd>
               </div>
 
               <div className="relative">
