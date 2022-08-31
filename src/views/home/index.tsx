@@ -65,7 +65,7 @@ export const HomeView: FC = ({ }) => {
                   </div>
                   <p className="ml-16 text-lg font-medium leading-6 text-white">Servex - Community Discord Bot</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Useful feedback tool for anyone building a software product, with more Solana specific features on the roadmap for our interactive discord bot Servex we expect this to become a critical tool in Solana NFT communities.</dd>
               </div>
 
               <div className="relative">
@@ -78,7 +78,7 @@ export const HomeView: FC = ({ }) => {
                   </div>
                   <p className="ml-16 text-lg font-medium leading-6 text-white">Trax - NFT Portfolio Tracker</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">Partnered with Pixel Panda C developer Noira we bring you a custom P&L tracker that is one of the most accurate on the market with a constantly evolving set of features.</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500">We've partnered with Pixel Panda Crew developer Noira to bring you a custom P&L tracker - one of the most accurate on the market with a constantly evolving set of features.</dd>
               </div>
 
               <div className="relative">
