@@ -25,7 +25,7 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
-            <Link href="/lore">
+            <Link href="https://www.staxing.xyz/">
               <a>STAX - <span className="text-pink"> - STAKE YOUR NFT</span></a>
             </Link>
           </li>
