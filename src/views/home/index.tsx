@@ -78,7 +78,7 @@ export const HomeView: FC = ({ }) => {
                   </div>
                   <p className="ml-16 text-lg font-medium leading-6 text-white">Trax - NFT Portfolio Tracker</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">Partnered with Pixel Panda Club developer Noira we bring you a custom P&L tracker that is one of the most accurate on the market with a constantly evolv.</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Partnered with Pixel Panda Club developer Noira we bring you a custom P&L tracker that is one of the most accurate on the market with a constantly evolving set of features.</dd>
               </div>
 
               <div className="relative">
