@@ -25,12 +25,17 @@ export const ContentContainer: FC = props => {
             </Link>
           </li>
           <li>
+            <Link href="/lore">
+              <a>STAX - <span className="text-pink"> - STAKE YOUR NFT</span></a>
+            </Link>
+          </li>
+          <li>
             <Link href="/synx">
               <a>SYNX</a>
             </Link>
           </li>
           <li>
-            <Link href="/basics">
+            <Link href="/servex">
               <a>SERVEX</a>
             </Link>
           </li>
