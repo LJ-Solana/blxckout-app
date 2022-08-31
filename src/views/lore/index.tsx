@@ -8,12 +8,12 @@ export const LoreView: FC = ({ }) => {
   return (
 <div className="md:hero mx-auto">
       <div className="md:hero-content flex flex-col">
-      <img src="apocalypse world.png" height="500" width="750"></img>
+      <img src="apocalypse world.png" height="500" width="750" className="mt-2 rounded-xl px-2"></img>
       <div className="overflow-hidden bg-base-100 py-2 px-4 sm:px-6 lg:px-8 xl:py-36">
       <div className="mx-auto max-w-max lg:max-w-7xl">
         <div className="relative z-5 mb-8 md:mb-2 md:px-6">
           <div className="max-w-prose text-base lg:max-w-none">
-            <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-primary-focus sm:text-4xl">What is the story behind Blxckout NFT?</p>
+            <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-primary-focus sm:text-4xl">The story behind Blxckout NFT.</p>
             <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">Dystopia. Post-apocalyptic. Total Blxckout.</p>
           </div>
         </div>

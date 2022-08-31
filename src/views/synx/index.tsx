@@ -9,10 +9,6 @@ export const SynxView: FC = ({ }) => {
 <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
       <img src="SYNX-Words-Logo.png" height="300" width="450"></img>
-        <div className="text-center">
-          <SignMessage/>
-          <SendTransaction />
-        </div>
       </div>
     </div>
   );
