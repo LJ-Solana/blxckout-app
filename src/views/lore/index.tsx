@@ -53,7 +53,7 @@ export const LoreView: FC = ({ }) => {
               </div>
             </div>
             <div className="mt-8 inline-flex rounded-md shadow">
-              <a href="https://magiceden.io/marketplace/blxckout_" className="flex items-center justify-center rounded-md border border-transparent bg-primary-focus px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Buy a Blxckout NFT</a>
+              <a href="https://magiceden.io/marketplace/blxckout_" className="flex items-center justify-center rounded-md border border-transparent bg-primary-focus px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Buy our NFT</a>
             </div>
           </div>
         </div>
