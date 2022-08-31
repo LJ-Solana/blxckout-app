@@ -26,17 +26,22 @@ export const ContentContainer: FC = props => {
           </li>
           <li>
             <Link href="/synx">
-              <a>SYNX</a>
+              <a>SYNX - STORAGE</a>
             </Link>
           </li>
           <li>
             <Link href="/servex">
-              <a>SERVEX</a>
+              <a>SERVEX - DISCORD BOT</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/servex">
+              <a>TRAX - PORTFOLIO TRACKER</a>
             </Link>
           </li>
           <li>
             <Link href="/basics">
-              <a>STORE</a>
+              <a>STAX STORE</a>
             </Link>
           </li>
           <li>
