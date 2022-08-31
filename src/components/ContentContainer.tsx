@@ -46,7 +46,7 @@ export const ContentContainer: FC = props => {
           </li>
           <li>
             <Link href="/basics">
-              <a>STAX STORE</a>
+              <a>STORE - SPEND YOUR STAX</a>
             </Link>
           </li>
           <li>
