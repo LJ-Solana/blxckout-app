@@ -1,20 +1,20 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { BasicsView } from "../views";
+import { SynxView } from "../views";
 
-const Basics: NextPage = (props) => {
+const Synx: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Scaffold</title>
+        <title>Blxckout - Synx</title>
         <meta
           name="description"
           content="Basic Functionality"
         />
       </Head>
-      <BasicsView />
+      <SynxView />
     </div>
   );
 };
 
-export default Basics;
+export default Synx;

@@ -30,23 +30,73 @@ export const HomeView: FC = ({ }) => {
 
     <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-          Scaffold Lite <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
-        </h1>
-        <h4 className="md:w-full text-center text-slate-300 my-2">
-          <p>Simply the fastest way to get started.</p>
-          Next.js, tailwind, wallet, web3.js, and more.
-        </h4>
-        <div className="max-w-md mx-auto mockup-code bg-primary p-6 my-2">
-          <pre data-prefix=">">
-            <code className="truncate">Start building on Solana  </code>
-          </pre>
-        </div>        
-          <div className="text-center">
-          <RequestAirdrop />
-          {/* {wallet.publicKey && <p>Public Key: {wallet.publicKey.toBase58()}</p>} */}
-          {wallet && <p>SOL Balance: {(balance || 0).toLocaleString()}</p>}
+      <img src="Blxckout_Words_Logo.png" height="300" width="450"></img>
+
+      <div className="bg-base-100 py-12">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="lg:text-center">
+            <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">We build products to increase adoption of Solana for normies.</p>
+            <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto">Blockchain based storage, Discord Bot & NFT portfolio tracker. (currently)</p>
+          </div>
+
+          <div className="mt-10">
+            <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
+              <div className="relative">
+                <dt>
+                  <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-primary-focus text-white">
+
+                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                    </svg>
+                  </div>
+                  <p className="ml-16 text-lg font-medium leading-6 text-white">Synx - Blockchain Based Mobile Storage</p>
+                </dt>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+              </div>
+
+              <div className="relative">
+                <dt>
+                  <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-primary-focus text-white">
+
+                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+                    </svg>
+                  </div>
+                  <p className="ml-16 text-lg font-medium leading-6 text-white">Servex - Commmunity Discord Bot</p>
+                </dt>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+              </div>
+
+              <div className="relative">
+                <dt>
+                  <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-primary-focus text-white">
+
+                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                    </svg>
+                  </div>
+                  <p className="ml-16 text-lg font-medium leading-6 text-white">Trax - NFT Portfolio Tracker P&L</p>
+                </dt>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+              </div>
+
+              <div className="relative">
+                <dt>
+                  <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-primary-focus text-white">
+
+                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                    </svg>
+                  </div>
+                  <p className="ml-16 text-lg font-medium leading-6 text-white">Mobile notifications</p>
+                </dt>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+              </div>
+            </dl>
+          </div>
         </div>
+      </div>
+
       </div>
     </div>
   );
