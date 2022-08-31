@@ -35,8 +35,8 @@ export const HomeView: FC = ({ }) => {
       <div className="bg-base-100 py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">We build products to increase adoption of Solana for normies.</p>
-            <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto">Blockchain based storage, Discord Bot & NFT portfolio tracker. (currently)</p>
+            <p className="mt-2 lg:mx-auto text-3xl font-bold text-white sm:text-4xl">We build products to increase adoption of Solana.</p>
+            <p className="mt-4 lg:mx-auto max-w-2xl text-xl text-white">Blockchain Based Storage, Community Discord Bot & NFT Portfolio Tracker.</p>
           </div>
 
           <div className="mt-10">
@@ -49,9 +49,9 @@ export const HomeView: FC = ({ }) => {
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
                     </svg>
                   </div>
-                  <p className="ml-16 text-lg font-medium leading-6 text-white">Synx - Blockchain Based Mobile Storage</p>
+                  <p className="ml-16 text-lg font-medium leading-6 text-white">Synx - Blockchain Based Storage</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Think iCloud built on top of the Solana tech stack. We provide a traditional web 2 interface for blockchain based data storage on GenesysGo's shadow drive.</dd>
               </div>
 
               <div className="relative">
@@ -62,7 +62,7 @@ export const HomeView: FC = ({ }) => {
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
                     </svg>
                   </div>
-                  <p className="ml-16 text-lg font-medium leading-6 text-white">Servex - Commmunity Discord Bot</p>
+                  <p className="ml-16 text-lg font-medium leading-6 text-white">Servex - Community Discord Bot</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
               </div>
@@ -75,9 +75,9 @@ export const HomeView: FC = ({ }) => {
                       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                     </svg>
                   </div>
-                  <p className="ml-16 text-lg font-medium leading-6 text-white">Trax - NFT Portfolio Tracker P&L</p>
+                  <p className="ml-16 text-lg font-medium leading-6 text-white">Trax - NFT Portfolio Tracker</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500">Partnered with Pixel Panda Club developer Noira we bring you a custom P&L tracker that is one of the most accurate on the market.</dd>
               </div>
 
               <div className="relative">

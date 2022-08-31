@@ -8,10 +8,7 @@ export const SynxView: FC = ({ }) => {
   return (
 <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
-        <h1 className="text-center text-5xl font-bold">
-          Synx
-        </h1>
-        {/* CONTENT GOES HERE */}
+      <img src="SYNX-Words-Logo.png" height="300" width="450"></img>
         <div className="text-center">
           <SignMessage/>
           <SendTransaction />
